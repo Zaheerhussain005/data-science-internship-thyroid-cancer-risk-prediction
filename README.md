@@ -97,22 +97,24 @@ Each model was trained using **scikit-learn** and **gradient boosting frameworks
 
 ## 🚀 Getting Started
 
+
+
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/yourusername/thyroid-cancer-prediction.git
 cd thyroid-cancer-prediction
 
 
-###2. Install Requirements
+# 2. Install Requirements
 
--pip install -r requirements.txt
+- pip install -r requirements.txt
 
 
-###3. Train a Model
+# 3. Train a Model
 
--python train.py --model logistic_regression --input data/thyroid_dataset.csv
+- python train.py --model logistic_regression --input data/thyroid_dataset.csv
 
-###📂 Project Structure
+## 📂 Project Structure
 
 ```├── data/               # Thyroid cancer dataset
 ├── notebooks/          # Jupyter notebooks for experiments
@@ -123,7 +125,15 @@ cd thyroid-cancer-prediction
 └── README.md           # You are here
 ```
 
-###🔮 Future Work
+## 🔮 Future Work
+
+- Apply SMOTE / class balancing for improved recall on malignant cases
+
+- Explore deep learning (ANNs, CNNs with imaging data)
+
+- Integrate into EHR systems for clinical deployment
+
+- Improve interpretability & explainability for doctors (SHAP, LIME)
 
 
 🧑‍💻 Author
